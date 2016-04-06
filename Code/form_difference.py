@@ -98,5 +98,7 @@ def main():
                 except:
                     pass
 
+                writer.writerows(data2)    
+
 if __name__ == "__main__":
     main()
